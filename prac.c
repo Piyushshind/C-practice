@@ -9,7 +9,7 @@ int main(){
     int ans = pow(c,a);
     printf("%d", ans);
     for(char i='a';i<='z';i++){
-        printf("%c",i);
+    printf("%c",i);
     }
     return 0 ;
 }  
