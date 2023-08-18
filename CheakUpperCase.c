@@ -4,7 +4,7 @@ int main(){
     char cha;
     printf("enter a charectrt :- %c");
     scanf("%d", & cha);
-    scanf("%d", &age); 
+    // scanf("%d", &age); 
 
     if(cha >= 'A' && cha <= 'Z'){
         printf("It is a Uppercase letter \n");
