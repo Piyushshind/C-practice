@@ -11,7 +11,7 @@ int main(){
     } else if(cha >='a' && cha <='z'){
         printf("It is Lower case letter");
     }else{
-        printf("Enter a valid character");
+         printf("Enter a valid character");
     }
     return 0;
 }
