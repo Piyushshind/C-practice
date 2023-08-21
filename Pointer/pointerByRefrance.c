@@ -9,7 +9,7 @@ int main()
     square(num); // call by value :-  we pass value of variable as argument.
     printf("no. is :- %d \n", num);
     printf("address of num  is :- %d \n", &num);
-    _square(&num);  // call by refrance :- we pass adderess of variable as argument.
+    _square(&num); // call by refrance :- we pass adderess of variable as argument.
     printf("no. is :- %d \n", num);
 
     return 0;
