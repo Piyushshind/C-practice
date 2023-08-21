@@ -5,5 +5,6 @@ int main(){
 int *ptr = &x;
 int **pptr = &ptr;
 
-//printf( "%d", ptr);
+printf( "%d", ptr);
+return 0;
 }
