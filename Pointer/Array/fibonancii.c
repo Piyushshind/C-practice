@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-void printFibo(int n);
 
 int main()
 {
