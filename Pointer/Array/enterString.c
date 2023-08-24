@@ -1,5 +1,5 @@
 #include <stdio.h>
-// to wriiten a str manually
+//  to wriiten a str manually
 int main()
 {
     char str[100];
