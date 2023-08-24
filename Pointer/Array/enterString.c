@@ -6,7 +6,7 @@ int main()
     char letter;
     int i = 0;
     while (letter != '\n')
-    {
+     {
         scanf("/c", letter);
         str[i] = letter;
         i++;
