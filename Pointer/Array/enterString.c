@@ -7,10 +7,13 @@ int main()
     int i = 0;
     while (letter != '\n')
     {
-        scanf("/c", letter);
+        scanf("/c",& letter);
         str[i] = letter;
         i++;
-    }
+    };
+
+    str[i] = '\0';
+    puts(str);
 
     return 0;
 }
