@@ -6,5 +6,5 @@ int main(){
     scanf("Enter the value of colums :- %d " , & col);
     int arr[row][col];
 
-    return   0;
+    return 0;
 }
