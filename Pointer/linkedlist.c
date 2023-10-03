@@ -85,8 +85,8 @@ void deleteLastNode()
 
         temp = temp->next;
     }
-    temp -> next = NULL;
-    end=temp;
+    temp->next = NULL;
+    end = temp;
 }
 int main()
 {
