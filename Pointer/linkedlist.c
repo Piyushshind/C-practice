@@ -10,7 +10,7 @@ typedef struct node
 node *head = NULL;
 node *end = NULL;
 
-// head--> 1 2 3 4 5
+// head--> =1 2 3 4 5
 int n = 0;
 void create()
 {
