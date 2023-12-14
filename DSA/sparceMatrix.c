@@ -11,7 +11,7 @@ struct MatrixElement
 };
 void displayMatrix(int matrix[MAX_SIZE][MAX_SIZE], int rows, int cols)
 {
-    for (int i = 0; i < rows; i++)
+    for (int i = 0; i < rows; i++) 
     {
         for (int j = 0; j < cols; j++)
         {
