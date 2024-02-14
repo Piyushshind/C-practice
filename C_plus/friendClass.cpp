@@ -42,7 +42,7 @@ int main()
     b2.setInput(9, 5);
     addition an;
     int ans = an.sumRealComplex(a1, b2);
-    cout<< "Addition is :- " << ans << endl;
+    cout<< "Addition is :-" << ans << endl;
 
     return 0;
 }
