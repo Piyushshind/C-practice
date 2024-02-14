@@ -17,7 +17,7 @@ class complex
     int a, b;
     // indivisually diclairing functions as friends 
     // friend int addition::sumRealComplex(complex, complex);
-    
+
     // alteret :-  we cal declair whole class as a friend 
     friend class addition;
 
@@ -42,7 +42,7 @@ int main()
     b2.setInput(9, 5);
     addition an;
     int ans = an.sumRealComplex(a1, b2);
-    cout<< "Addition is :-  " << ans << endl;
+    cout<< "Addition is :- " << ans << endl;
 
     return 0;
 }
