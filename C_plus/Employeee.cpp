@@ -17,6 +17,12 @@ public:
         count++;
     }
     void printData(void);
+
+    static void getCount(void)
+    {
+        // we can only access static variables in static methods 
+        cout << "Count is " << count << endl;
+    }
 };
 
 void Employeee ::printData(void)
