@@ -32,6 +32,12 @@ int addition::sumRealComplex(complex o1, complex o2)
 
 int main()
 {
+    complex a1, b2;
+    a1.setInput(4, 7);
+    b2.setInput(9, 5);
+    addition an;
+    int ans = an.sumRealComplex(a1, b2);
+    cout<< "Addition is :-  " << ans << endl;
 
     return 0;
 }
