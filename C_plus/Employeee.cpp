@@ -20,7 +20,7 @@ public:
 
     static void getCount(void)
     {
-        // we can only access static variables in static methods 
+        // we can only access static variables in static methods
         cout << "Count is " << count << endl;
     }
 };
@@ -37,9 +37,12 @@ int main()
     Employeee piyush, ram, dom;
     piyush.getData();
     piyush.printData();
+    Employeee::getCount();
     ram.getData();
     ram.printData();
+    Employeee::getCount();
     dom.getData();
     dom.printData();
+    Employeee::getCount();
     return 0;
 }
