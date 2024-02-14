@@ -15,7 +15,12 @@ public:
 class complex
 {
     int a, b;
-    friend int addition::sumRealComplex(complex, complex);
+    // indivisually diclairing functions as friends 
+    // friend int addition::sumRealComplex(complex, complex);
+    
+    // alteret :-  we cal declair whole class as a friend 
+    friend class addition;
+
 
 public:
     void setInput(int n1, int n2)
